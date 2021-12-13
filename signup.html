@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/facebook.png" type="image/x-icon">
+    <title>Socialbook</title>
+    <link rel="stylesheet" href="signup.css">
+    <script>
+        function isValid()
+        {
+            let valid = document.getElementsByClassName('.submit')
+            if(valid == "")
+            {
+                alert("filled the email section first");
+                return false;
+            }    
+        }
+       
+    </script>
+</head>
+<body>
+    <div class="login-card">
+        <div class="section">
+        <div class="icon flex">
+            <img src="./images/facebook.png">
+            <h1>facebook</h1>
+        </div>
+        <div class="name flex">
+            <input type="text" placeholder="Fisrt name">
+            <input type="text" placeholder="Last name">
+        </div>
+        <div class="username">
+           
+            <input type="email"id="user" placeholder="Mob/Email">
+            <input type="password" id="password" placeholder="Password">
+            <input type="password" id="password" placeholder="Confirm Password">
+        </div>
+     
+            <button type="button">sign up</button>
+        
+    </div>
+</body>
+</html>
